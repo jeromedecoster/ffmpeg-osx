@@ -1,0 +1,16 @@
+{
+  "name": "ffmpeg-osx",
+  "version": "0.0.1",
+  "description": "Encode flac, mp3, opus and wav files with ffmpeg.",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:jeromedecoster/ffmpeg-osx.git"
+  },
+  "dependencies": {
+    "balanced-match": "~0.1",
+    "moment": "~2.7",
+    "progress": "~1.1",
+    "ffprobe-osx": "jeromedecoster/ffprobe-osx"
+  },
+  "readme": "Encode flac, mp3, opus and wav files with ffmpeg."
+}
