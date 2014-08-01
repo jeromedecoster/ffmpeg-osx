@@ -2,6 +2,8 @@
 
 Encode flac, mp3, opus and wav files on OSX with <a href="http://www.evermeet.cx/ffmpeg/" target="_blank">ffmpeg version 2.2.3-tessus for Mac OS X Intel 64bit</a>
 
+No option, just best quality
+
 ## Install
 
 Install with <a href="http://nodejs.org/" target="_blank">npm</a> directly from the <a href="https://github.com/jeromedecoster/ffmpeg-osx" target="_blank">github repository</a>
@@ -51,5 +53,5 @@ function done(err) {
   console.log('ok, done');
 }
 
-ffmpeg.opus('./source.mp3', './dest.opus', done);
+ffmpeg.opus('./source.mp3', './dest.oga', done);
 ```

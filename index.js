@@ -17,7 +17,7 @@ exports.mp3 = function(src, dest, cb) {
 }
 
 exports.opus = function(src, dest, cb) {
-  encode.apply(null, ['opus'].concat(slice.call(arguments)));
+  encode.apply(null, ['oga'].concat(slice.call(arguments)));
 }
 
 exports.wav = function(src, dest, cb) {
@@ -81,7 +81,7 @@ function getargs(ext, src, dest) {
     case 'flac':
       args.push('flac');
       break;
-    case 'opus':
+    case 'oga':
       args.push('libopus', '-ab', '128k');
       break;
     case 'wav':
